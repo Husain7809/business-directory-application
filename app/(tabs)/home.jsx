@@ -1,12 +1,17 @@
-import { Text, View } from "react-native";
-import React, { Component } from "react";
+import { ScrollView, Text, View } from "react-native";
+import React from "react";
+import Header from "../../components/HomeScreen/Header";
+import Slider from "../../components/HomeScreen/Slider";
+import Category from "../../components/HomeScreen/Category";
+import PopularBusiness from "../../components/HomeScreen/PopularBusiness";
 
-export default class home extends Component {
-  render() {
-    return (
-      <View>
-        <Text style={{ fontSize: 100 }}>home</Text>
-      </View>
-    );
-  }
+export default function home() {
+  return (
+    <ScrollView>
+      <Header />
+      <Slider />
+      <Category />
+      <PopularBusiness />
+    </ScrollView>
+  );
 }

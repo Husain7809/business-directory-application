@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "John's Electronics",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+    "rating": 4.5,
+    "address": "1234 Main St, Los Angeles, CA"
+  },
+  {
+    "id": 2,
+    "name": "Fashion Hub",
+    "image": "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+    "rating": 4.7,
+    "address": "5678 Sunset Blvd, Los Angeles, CA"
+  },
+  {
+    "id": 3,
+    "name": "Home Comforts",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+    "rating": 4.3,
+    "address": "7890 Beverly Hills, CA"
+  },
+  {
+    "id": 4,
+    "name": "Sports World",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+    "rating": 4.8,
+    "address": "123 Oak St, San Francisco, CA"
+  },
+  {
+    "id": 5,
+    "name": "Bookworm Haven",
+    "image": "https://images.unsplash.com/photo-1556761175-4b46a572b786?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400",
+    "rating": 4.6,
+    "address": "456 Pine St, San Diego, CA"
+  }
+]

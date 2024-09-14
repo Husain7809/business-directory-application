@@ -18,7 +18,7 @@ export default function RootLayout() {
         if (item) {
           console.warn(`${key} was used 🔐 \n`);
         } else {
-          Alert.alert("No token found");
+          return null;
         }
         return item;
       } catch (error) {

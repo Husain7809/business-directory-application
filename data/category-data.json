@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "image": "https://cdn.dummyjson.com/recipe-images/1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Stir-Fry",
+    "image": "https://cdn.dummyjson.com/recipe-images/2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Chocolate",
+    "image": "https://cdn.dummyjson.com/recipe-images/3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Chicken",
+    "image": "https://cdn.dummyjson.com/recipe-images/4.webp"
+  },
+  {
+    "id": 5,
+    "name": "Mango",
+    "image": "https://cdn.dummyjson.com/recipe-images/5.webp"
+  },
+  {
+    "id": 6,
+    "name": "Avocado",
+    "image": "https://cdn.dummyjson.com/recipe-images/6.webp"
+  },
+  {
+    "id": 7,
+    "name": "Bruschetta",
+    "image": "https://cdn.dummyjson.com/recipe-images/7.webp"
+  },
+  {
+    "id": 8,
+    "name": "Stir-Fry",
+    "image": "https://cdn.dummyjson.com/recipe-images/8.webp"
+  },
+  {
+    "id": 9,
+    "name": "Salad",
+    "image": "https://cdn.dummyjson.com/recipe-images/9.webp"
+  },
+  {
+    "id": 10,
+    "name": "Pasta",
+    "image": "https://cdn.dummyjson.com/recipe-images/10.webp"
+  }
+]
