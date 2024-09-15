@@ -4,23 +4,39 @@ import { View, Text, FlatList, Image, StyleSheet } from "react-native";
 import categoryDetailsJson from "./../../data/category-details.json";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import { Colors } from "../../constants/Colors";
+import Loader from "./../../components/Loader/Loader";
 
 export default function BusinessListByCategory() {
   const navigation = useNavigation();
   const { category } = useLocalSearchParams();
   const [productList, setProductList] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     navigation.setOptions({
       headerShown: true,
       headerTitle: category,
     });
-
-    // Fetch data from API
-    setProductList(
-      categoryDetailsJson.filter((item) => item.category_name == category)
-    );
+    getProductByCategory();
   }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
+
+  function getProductByCategory() {
+    setIsLoading(true);
+    const filteredProducts = categoryDetailsJson.filter(
+      (item) => item.category_name == category
+    );
+    for (let i = 0; i < 2; i++) {
+      filteredProducts.push(...filteredProducts);
+    }
+    setProductList(filteredProducts);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }
 
   return (
     <View style={styles.container}>
@@ -28,6 +44,8 @@ export default function BusinessListByCategory() {
         <FlatList
           data={productList}
           keyExtractor={(item) => item.id.toString()}
+          onRefresh={getProductByCategory}
+          refreshing={isLoading}
           renderItem={({ item, index }) => {
             return (
               <View style={styles.card}>
