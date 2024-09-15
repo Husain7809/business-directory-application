@@ -3,9 +3,12 @@ import { Colors } from "./../../constants/Colors";
 import { useEffect, useState } from "react";
 import categoryListData from "./../../data/category-data.json";
 import CategoryItem from "./CategoryItem";
+import { useRouter } from "expo-router";
 
 export default function Category() {
   const [categoryList, setCategoryList] = useState([]);
+
+  const router = useRouter();
 
   useEffect(() => {
     setCategoryList(categoryListData);
@@ -53,7 +56,7 @@ export default function Category() {
             data={item}
             key={index}
             onCategoryPress={(category) => {
-              console.log("🚀 ~ Category ~ category:", category);
+              router.push(`/businessList/${category.name}`);
             }}
           />
         )}

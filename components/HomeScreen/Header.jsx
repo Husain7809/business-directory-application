@@ -1,12 +1,21 @@
-import { useUser } from "@clerk/clerk-expo";
-import { View, Text, Image, StyleSheet, TextInput } from "react-native";
+import { useClerk, useUser } from "@clerk/clerk-expo";
+import {
+  View,
+  Text,
+  Image,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  Dimensions,
+} from "react-native";
 import { Colors } from "./../../constants/Colors";
 import Feather from "@expo/vector-icons/Feather";
-import { Dimensions } from "react-native"; // Import Dimensions to get screen width
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
 export default function Header() {
   const { user } = useUser();
   const screenWidth = Dimensions.get("window").width; // Get the screen width
+  const { signOut } = useClerk();
 
   return (
     <View style={[styles.container, { width: screenWidth }]}>
@@ -16,6 +25,7 @@ export default function Header() {
           flexDirection: "row",
           alignItems: "center",
           gap: 10,
+          justifyContent: "space-evenly",
         }}
       >
         <Image
@@ -34,6 +44,9 @@ export default function Header() {
             {user?.fullName}
           </Text>
         </View>
+        <TouchableOpacity onPress={() => signOut({ redirectUrl: "/" })}>
+          <MaterialIcons name="logout" style={styles.logoutBtn} size={24} />
+        </TouchableOpacity>
       </View>
 
       {/* search bar */}
@@ -70,5 +83,11 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.PRIMARY,
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
+  },
+  logoutBtn: {
+    color: "#fff",
+    fontFamily: "outfit-bold",
+    padding: 10,
+    borderRadius: 8,
   },
 });

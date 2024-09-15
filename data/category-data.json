@@ -1,52 +1,42 @@
 [
   {
     "id": 1,
-    "name": "Pizza",
-    "image": "https://cdn.dummyjson.com/recipe-images/1.webp"
+    "name": "Electronics",
+    "image": "https://img.icons8.com/?size=100&id=12101&format=png&color=000000"
   },
   {
     "id": 2,
-    "name": "Stir-Fry",
-    "image": "https://cdn.dummyjson.com/recipe-images/2.webp"
+    "name": "Fashion",
+    "image": "https://img.icons8.com/?size=100&id=BuiEBRy99mn9&format=png&color=000000"
   },
   {
     "id": 3,
-    "name": "Chocolate",
-    "image": "https://cdn.dummyjson.com/recipe-images/3.webp"
+    "name": "Home & Kitchen",
+    "image": "https://img.icons8.com/?size=100&id=E63wCnRzPRal&format=png&color=000000"
   },
   {
     "id": 4,
-    "name": "Chicken",
-    "image": "https://cdn.dummyjson.com/recipe-images/4.webp"
+    "name": "Beauty & Health",
+    "image": "https://img.icons8.com/?size=100&id=14799&format=png&color=000000"
   },
   {
     "id": 5,
-    "name": "Mango",
-    "image": "https://cdn.dummyjson.com/recipe-images/5.webp"
+    "name": "Sports & Outdoors",
+    "image": "https://img.icons8.com/?size=100&id=ubcMtSSdyRHI&format=png&color=000000"
   },
   {
     "id": 6,
-    "name": "Avocado",
-    "image": "https://cdn.dummyjson.com/recipe-images/6.webp"
+    "name": "Toys & Games",
+    "image": "https://img.icons8.com/?size=100&id=VvzkwEC3yvRY&format=png&color=000000"
   },
   {
     "id": 7,
-    "name": "Bruschetta",
-    "image": "https://cdn.dummyjson.com/recipe-images/7.webp"
+    "name": "Books",
+    "image": "https://img.icons8.com/?size=100&id=16368&format=png&color=000000"
   },
   {
     "id": 8,
-    "name": "Stir-Fry",
-    "image": "https://cdn.dummyjson.com/recipe-images/8.webp"
-  },
-  {
-    "id": 9,
-    "name": "Salad",
-    "image": "https://cdn.dummyjson.com/recipe-images/9.webp"
-  },
-  {
-    "id": 10,
-    "name": "Pasta",
-    "image": "https://cdn.dummyjson.com/recipe-images/10.webp"
+    "name": "Automotive",
+    "image": "https://img.icons8.com/?size=100&id=3E1z6RFjX2IC&format=png&color=000000"
   }
 ]

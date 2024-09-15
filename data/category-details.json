@@ -1,0 +1,122 @@
+[
+  {
+    "id": 101,
+    "category_name": "Electronics",
+    "name": "Iphone 16",
+    "description": "Latest model with advanced features",
+    "price": 999.99,
+    "image": "https://www.91-img.com/gallery_images_uploads/f/9/f9b36dea56a134e4b5ca0736790c51e73be748f5.jpg?tr=h-550,w-0,c-at_max",
+    "rating": 4.5,
+    "inStock": true
+  },
+  {
+    "id": 102,
+    "category_name": "Electronics",
+    "name": "Mackbook Pro",
+    "description": "High performance laptop for work and play",
+    "price": 1299.99,
+    "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-14-spacegray-cto-hero-202310?wid=772&hei=466&fmt=jpeg&qlt=90&.v=1697913381764",
+    "rating": 4.7,
+    "inStock": false
+  },
+  {
+    "id": 201,
+    "category_name": "Fashion",
+    "name": "Men's T-Shirt",
+    "description": "Comfortable cotton t-shirt in various sizes",
+    "price": 19.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRwYVCwhkf6j6d-Q8YJ6xcMQ3Ewjv4JOMMW1IfXQ94sD4r4oDxSKvQYq_1knoLeSGs7FSeNdM57DyUM9pG03xdaqp1QYL6_vSt9b0zrY5jepdDU-_lM7M2gpw",
+    "rating": 4.2,
+    "inStock": true
+  },
+  {
+    "id": 202,
+    "category_name": "Fashion",
+    "name": "Women's Dress",
+    "description": "Stylish and elegant dress for any occasion",
+    "price": 49.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQks0IuXaLjFMpUVdf_lvHyFeTjs6lx0Sbnwh6h1dlaIyIcVBiueB8xpuvHN0fBRCgTGUhgxnI89r-iFgZ-eZlinfZKC-hp-9wpOzWN1qup-Au2dsVjObvmuw4",
+    "rating": 4.6,
+    "inStock": false
+  },
+  {
+    "id": 301,
+    "category_name": "Home & Kitchen",
+    "name": "Blender",
+    "description": "Powerful blender for smoothies and shakes",
+    "price": 39.99,
+    "image": "",
+    "rating": 4.3,
+    "inStock": true
+  },
+  {
+    "id": 302,
+    "category_name": "Home & Kitchen",
+    "name": "Coffee Maker",
+    "description": "Brew fresh coffee at home",
+    "price": 79.99,
+    "image": "",
+    "rating": 4.8,
+    "inStock": true
+  },
+  {
+    "id": 401,
+    "category_name": "Sports & Outdoors",
+    "name": "Lego Building Set",
+    "description": "Creative building blocks for kids ages 6-12",
+    "price": 59.99,
+    "image": "",
+    "rating": 4.9,
+    "inStock": true
+  },
+  {
+    "id": 402,
+    "category_name": "Toys & Games",
+    "name": "Board Game",
+    "description": "Family-friendly strategy board game for 2-4 players",
+    "price": 29.99,
+    "image": "",
+    "rating": 4.6,
+    "inStock": true
+  },
+  {
+    "id": 501,
+    "category_name": "Toys & Games",
+    "name": "Fiction Novel",
+    "description": "Bestselling mystery novel with thrilling twists",
+    "price": 14.99,
+    "image": "",
+    "rating": 4.5,
+    "inStock": false
+  },
+  {
+    "id": 502,
+    "category_name": "Books",
+    "name": "Non-Fiction Book",
+    "description": "Inspirational book on personal growth and success",
+    "price": 19.99,
+    "image": "",
+    "rating": 4.7,
+    "inStock": true
+  },
+  {
+    "id": 601,
+    "category_name": "Automotive",
+    "name": "Car Vacuum Cleaner",
+    "description": "Portable vacuum cleaner for car interiors",
+    "price": 49.99,
+    "image": "",
+    "rating": 4.4,
+    "inStock": true
+  },
+  {
+    "id": 602,
+    "category_name": "Automotive",
+    "name": "Car Cover",
+    "description": "Waterproof and dustproof cover for full-size cars",
+    "price": 79.99,
+    "image": "",
+    "rating": 4.8,
+    "inStock": false
+  }
+]

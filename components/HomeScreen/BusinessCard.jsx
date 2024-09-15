@@ -9,7 +9,19 @@ export default function BusinessCard({ data, onPress }) {
           <Image source={{ uri: data.image }} style={styles.image} />
           <Text style={styles.name}>{data.name}</Text>
           <Text style={styles.address}>{data.address}</Text>
-          <Text style={styles.rating}>⭐ {data.rating}</Text>
+          <View
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <Text style={styles.rating}>⭐ {data.rating}</Text>
+            <TouchableOpacity>
+              <Text style={styles.button}>More detail</Text>
+            </TouchableOpacity>
+          </View>
         </View>
       </View>
     </TouchableOpacity>
@@ -47,5 +59,12 @@ const styles = StyleSheet.create({
   rating: {
     fontFamily: "outfit-medium",
     marginLeft: 10,
+  },
+  button: {
+    color: "#fff",
+    backgroundColor: Colors.PRIMARY,
+    fontFamily: "outfit-medium",
+    padding: 5,
+    borderRadius: 5,
   },
 });

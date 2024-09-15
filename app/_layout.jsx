@@ -16,7 +16,7 @@ export default function RootLayout() {
       try {
         const item = await SecureStore.getItemAsync(key);
         if (item) {
-          console.warn(`${key} was used 🔐 \n`);
+          // console.warn(`${key} was used 🔐 \n`);
         } else {
           return null;
         }

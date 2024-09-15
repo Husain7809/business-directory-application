@@ -20,7 +20,7 @@ export default function PopularBusiness() {
       <FlatList
         data={businessData}
         horizontal={true}
-        style={{ paddingLeft: 20 }}
+        style={{ paddingLeft: 10 }}
         showsHorizontalScrollIndicator={false}
         renderItem={({ item, index }) => (
           <BusinessCard
@@ -28,7 +28,6 @@ export default function PopularBusiness() {
             key={index}
             onPress={(business) => {
               Alert.alert("Business clicked", business.name);
-              console.log("🚀 ~ BusinessCard ~ business:", business);
             }}
           />
         )}
@@ -57,7 +56,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   title: {
-    marginLeft: 20,
+    marginLeft: 10,
     fontSize: 20,
     fontFamily: "outfit-bold",
   },
