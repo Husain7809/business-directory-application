@@ -1,5 +1,5 @@
 {
-  "name": "view-master",
+  "name": "business-directory",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {

@@ -3,13 +3,21 @@ import businessJsonData from "../../data/business.json";
 import { useEffect, useState } from "react";
 import { Colors } from "./../../constants/Colors";
 import BusinessCard from "./BusinessCard";
+import Loader from "./../../components/Loader/Loader";
 
 export default function PopularBusiness() {
   const [businessData, setBusinessData] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    setIsLoading(true);
     setBusinessData(businessJsonData);
+    setIsLoading(false);
   }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <View style={styles.container}>

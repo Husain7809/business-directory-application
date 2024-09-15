@@ -4,15 +4,25 @@ import { useEffect, useState } from "react";
 import categoryListData from "./../../data/category-data.json";
 import CategoryItem from "./CategoryItem";
 import { useRouter } from "expo-router";
+import Loader from "./../../components/Loader/Loader";
 
 export default function Category() {
   const [categoryList, setCategoryList] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const router = useRouter();
 
   useEffect(() => {
+    setIsLoading(true);
     setCategoryList(categoryListData);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
   }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <View>

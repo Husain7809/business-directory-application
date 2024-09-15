@@ -1,13 +1,21 @@
 import { useEffect, useState } from "react";
 import { View, Text, FlatList, Image, StyleSheet } from "react-native";
 import sliderJson from "./../../data/slider-data.json";
+import Loader from "./../../components/Loader/Loader";
 
 export default function Slider() {
   const [sliderData, setSliderData] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
+    setIsLoading(true);
     setSliderData(sliderJson);
+    setIsLoading(false);
   }, []);
+
+  if (isLoading) {
+    return <Loader />;
+  }
 
   return (
     <View style={styles.container}>
